@@ -132,6 +132,10 @@ input:focus {
   left: -10px;
 }
 
+.text-display {
+  color: black;
+}
+
 .close,
 .edit {
   position: absolute;

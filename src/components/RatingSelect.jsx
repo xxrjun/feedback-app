@@ -1,11 +1,17 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React, { useContext, useEffect } from "react";
+import FeedbackContext from "../context/FeedbackContext";
 
-function RatingSelect({ select, selected }) {
+function RatingSelect({ selected, setSelected }) {
+  const { feedbackEdit } = useContext(FeedbackContext);
+
   const handleChange = (e) => {
     console.log(+e.currentTarget.value);
-    select(+e.currentTarget.value); // using '+' to cast value type from string to num
+    setSelected(+e.currentTarget.value); // using '+' to cast value type from string to num
   };
+
+  useEffect(() => {
+    setSelected(feedbackEdit.item.rating);
+  }, [feedbackEdit]);
 
   // simplified with iteration
   return (
@@ -27,7 +33,5 @@ function RatingSelect({ select, selected }) {
     </ul>
   );
 }
-
-RatingSelect.propTypes = {};
 
 export default RatingSelect;
