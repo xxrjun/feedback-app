@@ -12,10 +12,7 @@ Thanks Teacher Brad Traversy.
 
 # Reference Docs & Npm Modules
 
-- [useContext React](https://reactjs.org/docs/legacy-context.html#how-to-use-context)
-
+- [useContext](https://reactjs.org/docs/legacy-context.html#how-to-use-context)
 - [react-icons npm](https://www.npmjs.com/package/react-icons)
-
 - [framer-motion](https://www.npmjs.com/package/framer-motion)
-
 - [json-server](https://www.npmjs.com/package/json-server)
