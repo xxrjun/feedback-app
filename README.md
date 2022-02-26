@@ -2,6 +2,9 @@
 
 This project allows users to add, update and delete feedback. It uses a mock REST api with json-server.
 
+**Demo**
+<img src='https://github.com/xxrjun/feedback-app/blob/master/demo.png'>
+
 Check out the live project ([netlify](https://www.netlify.com/)) by clicking **[Feedback UI APP](https://rjun-feedback-project.netlify.app/)** (frontend only)
 
 # Learn From
