@@ -33,6 +33,6 @@ This will run JSON-server on port :5000 and React on port :3000
 # What I Learned from this Project
 
 - [useContext](https://reactjs.org/docs/legacy-context.html#how-to-use-context)
-- [react-icons npm](https://www.npmjs.com/package/react-icons)
+- [react-icons](https://react-icons.github.io/react-icons/)
 - [framer-motion](https://www.npmjs.com/package/framer-motion)
 - [json-server](https://www.npmjs.com/package/json-server)
