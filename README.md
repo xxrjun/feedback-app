@@ -1,4 +1,4 @@
-# React Feedback App
+## React Feedback App
 
 This project allows users to add, update and delete feedback. It uses a mock REST api with json-server.
 
@@ -7,20 +7,31 @@ This project allows users to add, update and delete feedback. It uses a mock RES
 
 Check out the live project ([netlify](https://www.netlify.com/)) by clicking **[Feedback UI APP](https://rjun-feedback-project.netlify.app/)** (frontend only)
 
-# Learn From
+## Learn From
 
 **Udemy Course [React Front To Back 2022](https://www.udemy.com/course/react-front-to-back-2022/)**
 
 Thanks Teacher Brad Traversy.
 
-# Usage
+<!-- GETTING STARTED -->
+## Getting Started
 
-### Install dependencies
+### Prerequisites
 
-```bash
-npm install
+**npm**
+```sh
+npm install npm@latest -g
 ```
 
+### Installation
+1. Clone the repo
+   ```sh
+   git clone https://github.com/xxrjun/Github-Finder-App
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 ### Run
 
 using npm modules [concurrently](https://www.npmjs.com/package/concurrently)
@@ -30,7 +41,9 @@ npm run dev
 
 This will run JSON-server on port :5000 and React on port :3000
 
-# What I Learned from this Project
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments I Learned From This Project
 
 - [useContext](https://reactjs.org/docs/legacy-context.html#how-to-use-context)
 - [react-icons](https://react-icons.github.io/react-icons/)
