@@ -30,7 +30,7 @@ npm run dev
 
 This will run JSON-server on port :5000 and React on port :3000
 
-# Reference Docs & Npm Modules
+# What I Learned from this Project
 
 - [useContext](https://reactjs.org/docs/legacy-context.html#how-to-use-context)
 - [react-icons npm](https://www.npmjs.com/package/react-icons)
