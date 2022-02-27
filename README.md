@@ -32,7 +32,7 @@ npm install npm@latest -g
    ```sh
    npm install
    ```
-### Run
+### Run the App in Develop Mode
 
 using npm modules [concurrently](https://www.npmjs.com/package/concurrently)
 ```bash
